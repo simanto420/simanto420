@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* navber style */
+nav {
+    display: flex;
+   justify-content: space-between;
+    padding: 30px 80px;
+    align-items: center;
+     border-bottom: 1px solid darkgray;
+     border-radius: 30px;
+}
+nav .nav-titel {
+    width: 80px;
+    height: auto;
+}
+nav ul {
+    
+   display: flex;
+   align-items: center;
+    
+}
+nav li {
+    list-style: none;
+    margin: 0 20px;
+    font-weight: 700;
+}
+.nav-src input {
+    height: 40px;
+    
+    
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 5px;  
+}
+ /* banner section style */
+ 
+ .banner {
+   display: flex;
+   align-items: center;
+   margin: 30px 100px;
+   justify-content: space-between;
+   padding: 0 200px;
+   background-color: rgba(105, 209, 209, 0.611);
+   border-radius: 5px;
+
+ }
+ /* about */
+ #about-description {
+    margin-top: 30px;
+    padding: 0 100px;
+ }
+ #about-description h2 {
+    margin-bottom: 5px;
+    padding-left: 15px;
+    border-left: 2px solid red;
+ }
+ #about-description p {
+    text-align: center;
+    border-bottom: 1px solid skyblue;
+ }
+ /* skills styls */
+ .skills-ditlse {
+  text-align: center;
+  padding: 10px;
+  background: cornflowerblue;
+  margin: 40px;
+  border-radius: 10px;
+}
+#skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-gap: 20px;
+  margin: 10px 50px;
+  padding: 20px;
+  column-rule-color: rgb(239, 149, 32)s;
+}
+
+.skill {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.skill img {
+  display: block;
+  margin: 0 auto;
+}
+
+.skill-titel {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-bottom: 2px solid coral;
+  border-radius: 50%;
+}
+
+.skill-description {
+  margin-top: 10px;
+  text-align:center;
+}
+
+
+/* https://www.behance.net/gallery/144641409/Personal-Portfolio-Web-Design?tracking_source=search_projects|web+design+portfolio */
+
